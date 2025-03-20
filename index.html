@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Portfolio de Javier Castillo</title>
+</head>
+<body>
+  <header>
+    <h1>Javier Castillo</h1>
+    <p class="subtitle">Desarrollador de Aplicaciones Móviles</p>
+      <p class="tagline">
+        Soy un apasionado desarrollador especializado en Android, con experiencia en Kotlin,
+      </p> 
+        <p class="tagline"> 
+          y frontend. Transformo ideas en soluciones digitales de alto rendimiento.
+      </p>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre Mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <!-- Sobre Mí -->
+    <section id="about">
+      <h2>Sobre Mí</h2>
+      <p>
+        Soy un entusiasta desarrollador especializado en aplicaciones móviles para Android. He transformado ideas en soluciones digitales completas
+        utilizando Kotlin y herramientas de diseño, cada proyecto es para mí una oportunidad de innovar.
+        Mi experiencia, que abarca desde la creación de apps propias hasta la coordinación de proyectos en distintos sectores,
+        me ha enseñado a abordar cada reto con precisión y creatividad. Me motiva aprender constantemente y mejorar,
+        combinando un enfoque metódico con la pasión por el desarrollo. Estoy comprometido a seguir creciendo y aportando soluciones
+        inteligentes y atractivas en cada desafío profesional.
+      </p>
+      <h3>Habilidades y Tecnologías</h3>
+      <h4>Habilidades Técnicas</h4>
+      <ul>
+        <li><strong>Lenguajes de Programación:</strong> Kotlin, Java, GDScript, HTML, CSS y JavaScript.</li>
+        <li><strong>Frameworks y Herramientas:</strong> Android Studio, Jetpack Compose, Git. Conocimientos en Godot.</li>
+        <li><strong>Bases de Datos:</strong> SQLite y Firebase.</li>
+      </ul>
+      <h4>Habilidades Blandas y de Gestión</h4>
+      <ul>
+        <li><strong>Liderazgo y Coordinación:</strong> Gestión de equipos y coordinación de proyectos multidisciplinarios.</li>
+        <li><strong>Resolución de Problemas:</strong> Enfoque analítico y metódico para identificar y superar obstáculos.</li>
+      </ul>
+      <p><a href="ruta-a-tu-cv.pdf" download>Descargar CV</a></p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects">
+      <h2>Proyectos Destacados</h2>
+      
+      <!-- Proyecto 1 -->
+      <article>
+        <h3>PhotoLeague App</h3>
+        <p><strong>Objetivo:</strong> Mostrar y visualizar las diferentes actividades e información relacionada con las carreras y eventos de PhotoLeague.</p>
+        <p><strong>Tecnologías:</strong> Kotlin, Android, Jetpack Compose.</p>
+        <p><strong>Descripción:</strong> App desarrollada para apoyar la dinámica de la competencia, con funciones que facilitan la interacción, la información y resumen de noticias post carreras.</p>
+        <p><strong>Función Desempeñada:</strong> Desarrollo y creación de la app, asegurando que se destaque en usabilidad y eficiencia, actualizando constantemente los resultados y noticias mediante el uso de diferentes APIs.</p>
+        <p><a href="https://play.google.com/store/apps/details?id=cl.app.photoleague" target="_blank">Ver en Google Play</a></p>
+        <p><a href="https://github.com/justerbass/photoleague" target="_blank">Ver en GitHub</a></p>
+      </article>
+      
+      <!-- Proyecto 2 -->
+      <article>
+        <h3>My Job Map</h3>
+        <p><strong>Objetivo:</strong> Facilitar y organizar la búsqueda de empleo a través de una aplicación móvil.</p>
+        <p><strong>Tecnologías:</strong> Kotlin, Android, Jetpack Compose.</p>
+        <p><strong>Descripción:</strong> Aplicación Android que permite gestionar búsquedas laborales, incluyendo historiales, notificaciones y calendarización de entrevistas.</p>
+        <p><strong>Función Desempeñada:</strong> Desarrollo de la arquitectura MVVM de la app, implementación de funciones clave y optimización de la experiencia de usuario.</p>
+        <p><a href="https://play.google.com/store/apps/details?id=cl.app.myjobmap" target="_blank">Ver en Google Play</a></p>
+        <p><a href="https://github.com/justerbass/MyJobMap" target="_blank">Ver en GitHub</a></p>
+      </article>
+      
+      <!-- Proyecto 3 -->
+      <article>
+        <h3>Página Web del Bootcamp de Frontend</h3>
+        <p><strong>Objetivo:</strong> Demostrar habilidades de diseño web y desarrollo frontend.</p>
+        <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript.</p>
+        <p><strong>Descripción:</strong> Página web creada para el cierre del bootcamp, enfocada en un diseño responsivo y experiencia de usuario intuitiva.</p>
+        <p><strong>Función Desempeñada:</strong> Diseñé y desarrollé la interfaz, implementando animaciones y optimizando la carga de contenido, aplicando HTML semántico y CSS para el diseño, optimizando al máximo la performance de la web.</p>
+        <p><a href="https://justerbass.github.io/comida/" target="_blank">Ver Proyecto</a></p>
+        <p><a href="https://github.com/justerbass/comida" target="_blank"> Ver en GitHub</a></p>
+      </article>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p class="formMessage"></p>
+      <form id="contactForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+    
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+      <p class="formMessage"></p>
+      <div class="contact-info">
+        <p><a href="https://www.linkedin.com/in/javier-castillo-284840264/" target="_blank">Mi Perfil de LinkedIn</a></p>
+      </div>
+    </section>   
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Javier Castillo. Todos los derechos reservados.</p>
+  </footer>
+  <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YNpHA2c7tNWyL08QFC",
+      });
+   })();
+</script>
+  <script src="year.js"></script>
+  <script src="clean_form.js"></script>
+</body>
+</html>
